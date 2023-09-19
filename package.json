@@ -21,6 +21,7 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "@barba/core": "^2.9.7"
+        "@barba/core": "^2.9.7",
+        "gsap": "^3.12.2"
     }
 }
