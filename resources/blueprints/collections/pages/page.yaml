@@ -24,6 +24,41 @@ sections:
           default: current
           localizable: true
           max_items: 1
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          localizable: true
+      -
+        handle: section
+        field:
+          options:
+            main: main
+            overview: overview
+            floor-plan: 'floor plan'
+            gallery: gallery
+            room-details: 'room details'
+            map: map
+            faq: FAQ
+            reviews: reviews
+            booking: booking
+            agents: agents
+          multiple: false
+          max_items: 1
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: section
+          type: select
+          icon: select
+          listable: hidden
+          instructions_position: above
+          visibility: visible
       -
         handle: template
         field:
@@ -35,14 +70,6 @@ sections:
           visibility: visible
           hide_partials: true
           blueprint: false
-  sidebar:
-    display: Sidebar
-    fields:
-      -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
       -
         handle: parent
         field:
