@@ -1,0 +1,149 @@
+﻿@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot');
+  src: url('fonts/icomoon.eot') format('embedded-opentype'),
+    url('fonts/icomoon.ttf') format('truetype'),
+    url('fonts/icomoon.woff') format('woff'),
+    url('fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+
+.icon-magnifying-glass:before {
+  content: "\e900";
+}
+
+.icon-right-arrow:before {
+  content: "\e901";
+}
+
+.icon-left-arrow:before {
+  content: "\e902";
+}
+
+.icon-up-arrow:before {
+  content: "\e903";
+}
+
+.icon-down-arrow:before {
+  content: "\e904";
+}
+
+.icon-size:before {
+  content: "\e905";
+}
+
+.icon-hotel-bed:before {
+  content: "\e906";
+}
+
+.icon-parking:before {
+  content: "\e907";
+}
+
+.icon-apartments:before {
+  content: "\e908";
+}
+
+.icon-residential:before {
+  content: "\e909";
+}
+
+.icon-world:before {
+  content: "\e90a";
+}
+
+.icon-sustainable:before {
+  content: "\e90b";
+}
+
+.icon-living-room:before {
+  content: "\e90c";
+}
+
+.icon-home-automation:before {
+  content: "\e90d";
+}
+
+.icon-kitchen:before {
+  content: "\e90e";
+}
+
+.icon-bedroom:before {
+  content: "\e90f";
+}
+
+.icon-chair:before {
+  content: "\e910";
+}
+
+.icon-public-toilet:before {
+  content: "\e911";
+}
+
+.icon-area:before {
+  content: "\e912";
+}
+
+.icon-parking-1:before {
+  content: "\e913";
+}
+
+.icon-parking-lot:before {
+  content: "\e914";
+}
+
+.icon-condominium:before {
+  content: "\e915";
+}
+
+.icon-bedroom-1:before {
+  content: "\e916";
+}
+
+.icon-quotes:before {
+  content: "\e917";
+}
+
+.icon-town:before {
+  content: "\e918";
+}
+
+.icon-location:before {
+  content: "\e919";
+}
+
+.icon-telephone:before {
+  content: "\e91a";
+}
+
+.icon-email:before {
+  content: "\e91b";
+}
+
+.icon-pin:before {
+  content: "\e91c";
+}
