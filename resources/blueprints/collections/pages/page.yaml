@@ -35,7 +35,6 @@ sections:
           visibility: visible
           hide_partials: true
           blueprint: false
-          folder: sections
   sidebar:
     display: Sidebar
     fields:
