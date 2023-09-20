@@ -46,6 +46,7 @@ sections:
             reviews: reviews
             booking: booking
             agents: agents
+            property-type: 'property type'
           multiple: false
           max_items: 1
           clearable: false
