@@ -2702,7 +2702,7 @@ ul {
 .floor-plan {
   position: relative;
   display: block;
-  padding: 0 0 120px;
+  padding: 120px 0px 0px;
 }
 
 .floor-plan .section-title {
