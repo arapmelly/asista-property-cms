@@ -301,17 +301,17 @@
 
 
   if ($(".scroll-to-target").length) {
-    $(".scroll-to-target").on("click", function () {
-      var target = $(this).attr("data-target");
-      // animate
-      $("html, body").animate({
-          scrollTop: $(target).offset().top
-        },
-        1000
-      );
+    // $(".scroll-to-target").on("click", function () {
+    //   var target = $(this).attr("data-target");
+    //   // animate
+    //   $("html, body").animate({
+    //       scrollTop: $(target).offset().top
+    //     },
+    //     1000
+    //   );
 
-      return false;
-    });
+    //   return false;
+    // });
   }
 
 
