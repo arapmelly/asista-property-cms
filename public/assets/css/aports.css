@@ -2738,7 +2738,7 @@ ul {
 .floor-plan {
   position: relative;
   display: block;
-  padding: 120px 0px 0px;
+  padding: 10px 0px 0px;
 }
 
 .floor-plan .section-title {
@@ -3042,7 +3042,7 @@ ul {
   display: block;
   background-color: var(--aports-black);
   overflow: hidden;
-  padding: 120px 0px 0px;
+  padding: 10px 0px 0px;
   margin-top: 0px;
   z-index: 1;
 }
@@ -4139,7 +4139,7 @@ ul {
 .about-two {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 10px 0 120px;
   overflow: hidden;
   z-index: 1;
 }
