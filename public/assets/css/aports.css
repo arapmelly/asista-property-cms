@@ -422,6 +422,25 @@ ul {
   border-radius: 50%;
 }
 
+.scroll-to-back i {
+  color: var(--aports-white);
+  font-size: 18px;
+  line-height: 50px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  position: relative;
+  display: inline-block;
+  /* transform: rotate(-90deg); */
+}
+
+.scroll-to-back:hover {
+  background-color: var(--aports-black);
+}
+
+.scroll-to-back:hover i {
+  color: #fff;
+}
+
 .scroll-to-top {
   display: inline-block;
   width: 50px;
