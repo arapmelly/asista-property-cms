@@ -18,3 +18,11 @@ barba.init({
     }]
 });
 
+barba.hooks.beforeEnter(({ current, next }) => {
+	let nextHtml = next.html;
+	// Get next page scripts.
+	const nextScripts = $(nextHtml).filter("#scripts");
+	// Replace the current scripts with the new ones.
+	$("#scripts").html(nextScripts.html());
+});
+
